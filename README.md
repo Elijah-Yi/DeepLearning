@@ -7,12 +7,71 @@ which could provide state-of-the-art deep learning models
 
 * 本教程是本人对在学习深度学习中过程中进行整理总结，时间久了经常忘记，此仓储仅用于自己对于深度学习的理解、记录，
 其中很多内容参考仓储:[deep-learning-for-image-processing](https://github.com/WZMIAOMIAO/deep-learning-for-image-processing)大家可以自行去关注，
-博主讲的比较详细，并且有配套视频，非常负责。我看了他的很多东西，受益匪浅。
+博主讲的比较详细，并且有配套视频，非常负责。我看了他的很多东西，受益匪浅。还有部分内容是从网络上摘抄。
 * 本教程包含两点：
     1. 介绍网络的结构与创新点
     2. 使用pytorch进行网络搭建与训练
 
 ## Content
 
-**1. 图像分类**
+**图像分类**
   * LeNet
+    * 
+
+  * AlexNet
+    * 
+
+
+  * VggNet（已完成）
+    * 
+
+
+  * GoogLeNet（已完成）
+    *
+
+
+  * ResNet（已完成）
+    * 
+
+
+  * ResNeXt (已完成)
+    * 
+    * 
+
+  * MobileNet_V1_V2（已完成）
+    * 
+
+
+  * MobileNet_V3（已完成）
+    * 
+
+
+  * ShuffleNet_V1_V2 (已完成)
+    * 
+
+
+  * EfficientNet_V1（已完成）
+    * 
+
+
+  * EfficientNet_V2 (已完成)
+    * 
+
+  
+  * RepVGG（已完成）
+    * 
+
+  * Vision Transformer(已完成)
+    * 
+
+
+  * Swin Transformer(已完成)
+    * 
+
+
+  * ConvNeXt(已完成)
+    * 
+
+
+  * MobileViT(已完成)
+    * 
