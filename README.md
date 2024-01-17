@@ -22,56 +22,56 @@ which could provide state-of-the-art deep learning models
     * 
 
 
-  * VggNet（已完成）
+  * VggNet
     * 
 
 
-  * GoogLeNet（已完成）
+  * GoogLeNet
     *
 
 
-  * ResNet（已完成）
+  * ResNet
     * 
 
 
-  * ResNeXt (已完成)
+  * ResNeXt
     * 
     * 
 
-  * MobileNet_V1_V2（已完成）
+  * MobileNet_V1_V2
     * 
 
 
-  * MobileNet_V3（已完成）
+  * MobileNet_V3
     * 
 
 
-  * ShuffleNet_V1_V2 (已完成)
+  * ShuffleNet_V1_V2
     * 
 
 
-  * EfficientNet_V1（已完成）
+  * EfficientNet_V1
     * 
 
 
-  * EfficientNet_V2 (已完成)
+  * EfficientNet_V2
     * 
 
   
-  * RepVGG（已完成）
+  * RepVGG
     * 
 
-  * Vision Transformer(已完成)
-    * 
-
-
-  * Swin Transformer(已完成)
+  * Vision Transformer
     * 
 
 
-  * ConvNeXt(已完成)
+  * Swin Transformer
     * 
 
 
-  * MobileViT(已完成)
+  * ConvNeXt
+    * 
+
+
+  * MobileViT
     * 
