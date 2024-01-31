@@ -53,7 +53,10 @@ def load_pretrained_weights(model, archme, load_fc=True):
 class VGG(nn.Module):
     def __init__(self, features, num_classes=None, cfg=None, init_weights=False):
         super(VGG, self).__init__()
-        num_classes = num_classes if num_classes is not None else cfg['MODEL']['NUM_CLASSES']
+        if cfg is not None:
+            num_classes = num_classes if num_classes is not None else cfg['MODEL']['NUM_CLASSES']
+        else:
+            num_classes = 1000
         self.features = features
         self.classifier = nn.Sequential(
             nn.Linear(512 * 7 * 7, 4096),

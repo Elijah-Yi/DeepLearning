@@ -9,4 +9,5 @@
 """
 from .AlexNet import AlexNet
 from .LeNet import LeNet
+from .GoogleNet import GoogLeNet
 from .Vgg import vgg11, vgg13, vgg16, vgg19

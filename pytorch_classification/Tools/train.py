@@ -72,6 +72,8 @@ def main(args, cfg):
             optimizer.zero_grad()
             # forward + backward + optimize
             outputs = model(inputs)
+            if isinstance(outputs, tuple):
+                outputs = outputs[0]
             loss = loss_function(outputs, labels)
             loss.backward()
             optimizer.step()

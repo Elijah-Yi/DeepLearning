@@ -11,10 +11,14 @@ import torch.nn as nn
 import torch
 import torch.nn.functional as F
 
+from Utils.registries import MODEL_REGISTRY
 
+
+@MODEL_REGISTRY.register()
 class GoogLeNet(nn.Module):
-    def __init__(self, num_classes=1000, aux_logits=True, init_weights=False):
+    def __init__(self, cfg=None, aux_logits=True, init_weights=False, **kwargs):
         super(GoogLeNet, self).__init__()
+        num_classes = cfg['MODEL']['NUM_CLASSES'] if cfg is not None else 1000
         self.aux_logits = aux_logits
 
         self.conv1 = BasicConv2d(3, 64, kernel_size=7, stride=2, padding=3)
