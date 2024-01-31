@@ -11,3 +11,4 @@ from .AlexNet import AlexNet
 from .LeNet import LeNet
 from .GoogleNet import GoogLeNet
 from .Vgg import vgg11, vgg13, vgg16, vgg19
+from .Resnet import resnet34, resnet50, resnet101, resnext50_32x4d, resnext101_32x8d

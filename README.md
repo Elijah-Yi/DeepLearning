@@ -26,12 +26,12 @@ which could provide state-of-the-art deep learning models
     * [花类数据](http://download.tensorflow.org/example_images/flower_photos.tgz)实现
 
 
-  * GoogLeNet
-    *
+  * [GoogLeNet](./pytorch_classification/NetFactory/GoogleNet.py)
+    * [花类数据](http://download.tensorflow.org/example_images/flower_photos.tgz)实现
 
 
-  * ResNet
-    * 
+  * [ResNet](./pytorch_classification/NetFactory/Resnet.py)
+    * [花类数据](http://download.tensorflow.org/example_images/flower_photos.tgz)实现  
 
 
   * ResNeXt
